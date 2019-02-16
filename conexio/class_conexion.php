@@ -3,7 +3,7 @@
 		private $host = "localhost";
 		private $usuario = "root";
 		private $password = "";
-		private $baseDatos = "loggin_db";
+		private $baseDatos = "ingenieria";
 		private $puerto = 3306;
 		private $link;
 

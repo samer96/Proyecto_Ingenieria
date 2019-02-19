@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Registrar cliente</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/registrar.css">
+</head>
+
+<body>
+  <div class="container1">
+    <div class="row">
+      <div class="col-sm">
+        <form id="contact" action="ajax/guardar-usuario.php" method="post">
+          <h3>Registrar cliente</h3>
+          <div class="row">
+            <div class="col-sm">
+              <input placeholder="Primer Nombre" name="primer-nombre" id="primer-nombre" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Segundo Nombre" name="segundo-nombre" id="segundo-nombre" type="text" tabindex="1"  autofocus>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-sm">
+              <input placeholder="Primer Apellido" name="primer-apellido" id="primer-apellido" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Segundo Apellido" name="segundo-apellido" id="segundo-apellido" type="text" tabindex="1"  autofocus>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm">
+              <input placeholder="Email" name="email" id="email" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Número de celular (Opcional)" name="numero-celular" id="numero-celular" type="text" tabindex="1"  autofocus>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <input placeholder="Ciudad" name="ciudad" id="ciudad" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Colonia" name="colonia" id="colonia" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Tipo de cliente" name="tipo-cliente" id="tipo-cliente" type="text" tabindex="1"  autofocus>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <input placeholder="Calle" name="calle" id="calle" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Bloque" name="bloque" id="bloque" type="text" tabindex="1"  autofocus>
+            </div>
+            <div class="col-sm">
+              <input placeholder="Numero Casa" name="casa" id="casa" type="text" tabindex="1"  autofocus>
+            </div>
+          </div>
+          <fieldset>
+            <button name="submit" type="submit" id="guardar-archivo" data-submit="...Sending">REGISTRARSE</button>
+          </fieldset>
+          <p class="copyright">Designed by <a href="index.html" target="_blank" title="Colorlib">PROHFOAM</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./app/guardar_contacto.js"></script>
+</body>
+</html>

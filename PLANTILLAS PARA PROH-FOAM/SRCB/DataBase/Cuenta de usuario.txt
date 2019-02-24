@@ -1,0 +1,3 @@
+Usuario: User
+Clave: User
+Tipo: Administrador
